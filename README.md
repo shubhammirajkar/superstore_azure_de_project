@@ -51,6 +51,7 @@ Once data transmitted we need to mount it to Databricks and do analysis by using
 
 ### 5. Spark SQL Analytics:
    - Leverage Spark SQL on Databricks to analyze and derive insights from the transferred data.
+   - Please refer this [SQL Notebook](https://github.com/shubhammirajkar/superstore_azure_de_project/blob/main/superstore%20notebook.sql) for the Spark SQL queries
 
 ## Folder Structure:
 
