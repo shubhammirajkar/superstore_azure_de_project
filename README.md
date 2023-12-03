@@ -6,6 +6,9 @@ This project demonstrates an end-to-end Azure Data Engineering solution based on
 We have data coming into Amazon S3 location from external resources and we want to move data to Azure Blob container by using Azure Data Factory pipeline.
 Once data transmitted we need to mount it to Databricks and do analysis by using Spark SQL.
 
+## Architecture
+<img src="Architecture.png">
+
 ## Project Workflow
 
 1. **Create Azure Blob Storage:**
