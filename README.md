@@ -20,8 +20,6 @@ Once data transmitted we need to mount it to Databricks and do analysis by using
 
 3. **Azure Data Factory Pipeline:**
    - Develop an Azure Data Factory pipeline to efficiently move data from the Amazon S3 bucket to the Azure Blob container.
-   
-     <img src="ADF_pipeline.png">
 
 4. **Mount Azure Blob Storage to Databricks:**
    - Establish a connection between Azure Databricks and the Azure Blob Storage to facilitate data access.
@@ -40,10 +38,12 @@ Once data transmitted we need to mount it to Databricks and do analysis by using
 ### 3. Azure Data Factory Pipeline:
    - Develop an Azure Data Factory pipeline to copy data from Amazon S3 to Azure Blob.
    - Utilize appropriate connectors and ensure data integrity during the transfer.
+     
+     <img src="ADF_pipeline.png">
 
 ### 4. Mount Azure Blob to Databricks:
    - Configure Azure Databricks to mount the Azure Blob Storage as a DBFS (Databricks File System) directory.
-   - 
+    
      ```python
      dbutils.fs.mount(
      source="wasbs://raw@blobstoragesuperstore.blob.core.windows.net",
@@ -56,11 +56,6 @@ Once data transmitted we need to mount it to Databricks and do analysis by using
    - Leverage Spark SQL on Databricks to analyze and derive insights from the transferred data.
    - Please refer this [SQL Notebook](https://github.com/shubhammirajkar/superstore_azure_de_project/blob/main/superstore%20notebook.sql) for the Spark SQL queries
 
-## Folder Structure:
-
-- `/scripts`: Contains necessary scripts for setup and configuration.
-- `/data`: Placeholder for sample or transferred data.
-- `/notebooks`: Jupyter notebooks for Spark SQL analytics and exploratory data analysis.
 
 ## Additional Resources:
 
