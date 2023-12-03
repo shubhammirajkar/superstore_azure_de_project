@@ -31,7 +31,7 @@ Once data transmitted we need to mount it to Databricks and do analysis by using
 
 ### 1. Amazon S3 Bucket Setup:
    - Set up an Amazon S3 bucket using the AWS Management Console.
-   - 
+ 
 ### 2. Azure Blob Storage Setup:
    - Follow the Azure documentation to create a Blob Storage account.
 
