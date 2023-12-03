@@ -40,10 +40,10 @@ Once data transmitted we need to mount it to Databricks and do analysis by using
    - 
      ```python
      dbutils.fs.mount(
-  source="wasbs://raw@blobstoragesuperstore.blob.core.windows.net",
-  mount_point= "/mnt/raw",
-  extra_configs={"fs.azure.account.key.blobstoragesuperstore.blob.core.windows.net":"ACCESS_KEY"}
-)
+     source="wasbs://raw@blobstoragesuperstore.blob.core.windows.net",
+     mount_point= "/mnt/raw",
+     extra_configs={"fs.azure.account.key.blobstoragesuperstore.blob.core.windows.net":"ACCESS_KEY"}
+     )
      ```
 
 ### 5. Spark SQL Analytics:
