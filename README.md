@@ -11,11 +11,12 @@ Once data transmitted we need to mount it to Databricks and do analysis by using
 
 ## Project Workflow
 
-1. **Create Azure Blob Storage:**
+1. **Create Amazon S3 Bucket:**
+   - Set up an Amazon S3 bucket to act as the source for our data.
+
+2. **Create Azure Blob Storage:**
    - Set up an Azure Blob Storage account to store data transferred from Amazon S3.
 
-2. **Create Amazon S3 Bucket:**
-   - Set up an Amazon S3 bucket to act as the source for our data.
 
 3. **Azure Data Factory Pipeline:**
    - Develop an Azure Data Factory pipeline to efficiently move data from the Amazon S3 bucket to the Azure Blob container.
