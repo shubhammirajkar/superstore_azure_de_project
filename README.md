@@ -29,11 +29,11 @@ Once data transmitted we need to mount it to Databricks and do analysis by using
 
 ## Steps to Replicate:
 
-### 1. Azure Blob Storage Setup:
-   - Follow the Azure documentation to create a Blob Storage account.
-
-### 2. Amazon S3 Bucket Setup:
+### 1. Amazon S3 Bucket Setup:
    - Set up an Amazon S3 bucket using the AWS Management Console.
+   - 
+### 2. Azure Blob Storage Setup:
+   - Follow the Azure documentation to create a Blob Storage account.
 
 ### 3. Azure Data Factory Pipeline:
    - Develop an Azure Data Factory pipeline to copy data from Amazon S3 to Azure Blob.
