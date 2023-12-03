@@ -3,7 +3,7 @@
 -- MAGIC dbutils.fs.mount(
 -- MAGIC   source="wasbs://raw@blobstoragesuperstore.blob.core.windows.net",
 -- MAGIC   mount_point= "/mnt/raw",
--- MAGIC   extra_configs={"fs.azure.account.key.blobstoragesuperstore.blob.core.windows.net":"wRB20TXymBgQuqmYL4EfuCB379FOwNzJqiXyWC0vseumsDTJxKELiGJ9v5ffH6ufT4pRmMm7nBiK+AStGsTBxw=="}
+-- MAGIC   extra_configs={"fs.azure.account.key.blobstoragesuperstore.blob.core.windows.net":"ACCESS_KEY"}
 -- MAGIC )
 
 -- COMMAND ----------
