@@ -19,6 +19,7 @@ Once data transmitted we need to mount it to Databricks and do analysis by using
 
 3. **Azure Data Factory Pipeline:**
    - Develop an Azure Data Factory pipeline to efficiently move data from the Amazon S3 bucket to the Azure Blob container.
+   
      <img src="ADF_pipeline.png">
 
 4. **Mount Azure Blob Storage to Databricks:**
